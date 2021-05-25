@@ -1,0 +1,128 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: brown;
+  background-image: url(../IMG/sondo-legno2.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: scroll;
+
+
+}
+
+.img-sfondo{
+  /* background-repeat: repeat; */
+}
+
+
+footer{
+  text-align: center;
+  padding: 5px;
+}
+.button{
+  border-radius: 5px;
+}
+
+#container{
+  width: 80%;
+  margin: auto;
+}
+
+
+
+ /* header */
+
+.header-top{
+  height: 90px;
+  line-height: 70px;
+  padding: 10px;
+}
+.header-bottom{
+  margin-top: 5px;
+}
+.logo-gmail-2{
+  height: 80px;
+  vertical-align: middle;
+}
+h1{
+  display: inline;
+  color: white;
+}
+hr{
+  border: 1px solid white;
+}
+ /* /header */
+
+
+
+ /* main */
+
+.title-unread{
+  color: white;
+  margin: 5px 5px;
+}
+
+#list{
+  list-style:none;
+}
+
+.title-unread span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background: orange;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.emails{
+  background: lightgrey;
+  border: 1px solid black;
+  margin: 10px;
+}
+.email.read{
+  background-color: white;
+}
+.email{
+  border: 1px solid black;
+}
+.email p{
+  display: inline;
+}
+.email input{
+  margin-left: 5px;
+}
+p{
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+.testo-email{
+  font-family: serif;
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+/* /main */
+
+
+/* footer */
+
+.text-footer-1{
+  color: white;
+  font-size: 30px;
+}
+.text-footer-2{
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+/*/footer */
